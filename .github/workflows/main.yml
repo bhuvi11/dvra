@@ -1,0 +1,14 @@
+ 
+
+name: Securin Scan
+"on":
+- workflow_dispatch
+- pull_request
+jobs:
+  scanning:
+      
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build Image
+      run: docker build . --file Dockerfile --tag vishal-ceg/ecom-service:latest
+    runs-on: ubuntu-latest
