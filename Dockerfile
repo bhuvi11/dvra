@@ -1,4 +1,4 @@
-FROM openjdk-8-jre-alpine
+FROM openjdk
 ARG artifact_name
 COPY  target/$artifact_name.jar /usr/src/shiftleft-api/shiftleft-api.jar
 WORKDIR /usr/src/shiftleft-api/
