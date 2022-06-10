@@ -1,4 +1,6 @@
 Vulnerabilities:
+
+[![Git](https://app.soluble.cloud/api/v1/public/badges/59b010de-cafb-45a5-9c32-ea17583406e6.svg?orgId=560723739106)](https://app.soluble.cloud/repos/details/github.com/bhuvi11/dvra?orgId=560723739106)  
  
 0. Sensitive info saved unencrypted
 
