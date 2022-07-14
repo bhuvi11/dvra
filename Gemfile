@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '5.2.8.1'
 gem 'strong_parameters', github: 'rails/strong_parameters'
 gem 'sqlite3'
 gem 'rack', '1.4.0'
