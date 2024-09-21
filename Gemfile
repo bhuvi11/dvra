@@ -21,4 +21,4 @@ gem 'jquery-rails'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use puma as the app server
-gem 'puma'
+gem 'puma', '>= 5.6.9'
